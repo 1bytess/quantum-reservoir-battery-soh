@@ -1,13 +1,13 @@
 # Quantum Reservoir Computing for Battery SOH
 
-This repository is the public code companion for the manuscript on quantum
-reservoir computing as a fixed nonlinear feature map for EIS-based battery
-state-of-health estimation under limited data.
+This repository contains the code used for battery state-of-health estimation
+experiments based on electrochemical impedance spectroscopy (EIS), quantum
+reservoir computing, and matched classical baselines.
 
-The release is organized for readers and reviewers rather than around the
-historical internal workspace. It includes the runnable source code, the
+The release is organized as a clean public codebase rather than as a mirror of
+the original working directory. It includes runnable source code, the
 environment specification, and instructions for obtaining the public datasets
-used in the study.
+used by the loaders and experiment pipelines.
 
 ## What Is Included
 
@@ -15,13 +15,12 @@ used in the study.
   registry.
 - `environment.qiskit.yml`: conda environment specification for the study.
 - `data/README.md`: dataset access notes and redistribution status.
-- `CODE_AVAILABILITY.md`: manuscript-ready code and data availability wording.
 
 ## What Is Not Included
 
 - Raw datasets.
 - Restricted ESCL laboratory data.
-- Draft manuscript text, reference PDFs, and authoring assets.
+- Manuscript drafts, reference PDFs, and authoring assets.
 - Internal planning notes, review notes, and local automation metadata.
 - Generated `result/` folders from local runs.
 
@@ -75,18 +74,3 @@ In short:
 - ESCL laboratory data are not redistributed in this repository.
 - Readers should recreate `data/warwick/`, `data/stanford/`, and `data/escl/`
   locally before running dataset-dependent pipelines.
-
-## Paper Linkage
-
-For the paper, the repository is intended to support a direct code-availability
-link. Suggested wording is provided in [CODE_AVAILABILITY.md](CODE_AVAILABILITY.md).
-
-If this repository is published under the GitHub URL below, the short version
-is:
-
-`Code availability: The code used in this study is available at https://github.com/1bytess/quantum-reservoir-battery-soh`
-
-That statement should be paired with the data-availability wording in
-`CODE_AVAILABILITY.md`, because the ESCL laboratory dataset is restricted and
-the public datasets are obtained from their original sources rather than
-bundled here.
