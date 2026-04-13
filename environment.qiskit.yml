@@ -1,0 +1,66 @@
+name: escl-quantum
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Python
+  - python=3.10
+
+  # Data Processing
+  - pandas>=1.5.0
+  - numpy>=1.23.0
+  - scipy>=1.9.0
+
+  # Machine Learning
+  - scikit-learn>=1.2.0
+
+  # Visualization
+  - matplotlib>=3.6.0
+  - seaborn>=0.12.0
+
+  # Utilities
+  - tqdm
+  - joblib
+
+  # Jupyter (for notebooks/analysis)
+  - jupyter
+  - ipykernel
+  - ipywidgets
+
+  # Pip packages
+  - pip
+  - pip:
+      # Qiskit Core
+      - qiskit>=0.45.0
+
+      # Qiskit Aer (CPU simulator with multi-threading, Windows compatible)
+      - qiskit-aer>=0.13.0
+
+      # IBM Quantum Runtime (REQUIRED for real hardware)
+      - qiskit-ibm-runtime>=0.17.0
+      - qiskit-ibm-provider>=0.7.0
+
+      # Qiskit Machine Learning
+      - qiskit-machine-learning>=0.7.0
+      - qiskit-algorithms>=0.3.0
+
+      # Additional Qiskit Tools
+      - qiskit-optimization>=0.6.0
+
+      # Quantum Circuit Visualization
+      - pylatexenc
+      - pydot
+
+      # Additional ML tools
+      - optuna  # Hyperparameter optimization
+      - xgboost>=2.0.0  # Tree-based ensemble (strong baseline)
+
+      # For saving/loading models
+      - dill
+
+      # Progress bars and logging
+      - colorlog
+
+      # Deep learning (1D-CNN and MLP baselines)
+      - torch>=2.0.0
+      - torchvision

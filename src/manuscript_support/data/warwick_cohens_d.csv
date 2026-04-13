@@ -1,0 +1,8 @@
+metric,value
+n_folds,24.0
+mean_mae_qrc_pct,0.8335
+mean_mae_xgb_pct,1.6593
+mean_diff_pct,-0.8257
+std_diff_pct,1.4280
+cohens_d_paired,-0.578
+cohens_d_pooled,-0.691
