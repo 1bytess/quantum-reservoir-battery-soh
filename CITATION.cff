@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software (via the Zenodo DOI) and the associated manuscript."
+title: "Quantum Reservoir Computing for Battery State-of-Health Estimation from Electrochemical Impedance Spectroscopy"
+version: "1.1.0"
+date-released: "2026-04-26"
+doi: "10.5281/zenodo.19591235"
+url: "https://github.com/1bytess/quantum-reservoir-battery-soh"
+repository-code: "https://github.com/1bytess/quantum-reservoir-battery-soh"
+license: Apache-2.0
+type: software
+authors:
+  - family-names: "Hernowo"
+    given-names: "Benedictus Ezra"
+    email: "project@ezrahernowo.com"
+  - family-names: "Lee"
+    given-names: "Miyoung"
+  - family-names: "Isaiah"
+    given-names: "Ekuewa Oluwaseun"
+  - family-names: "Barancira"
+    given-names: "Ted Doral"
+  - family-names: "Kim"
+    given-names: "Jonghoon"
+keywords:
+  - quantum reservoir computing
+  - lithium-ion battery
+  - state of health
+  - electrochemical impedance spectroscopy
+  - quantum machine learning
+  - IBM Quantum
+preferred-citation:
+  type: article
+  title: "Quantum Reservoir Computing for Battery State-of-Health Estimation from Electrochemical Impedance Spectroscopy"
+  authors:
+    - family-names: "Hernowo"
+      given-names: "Benedictus Ezra"
+    - family-names: "Lee"
+      given-names: "Miyoung"
+    - family-names: "Isaiah"
+      given-names: "Ekuewa Oluwaseun"
+    - family-names: "Barancira"
+      given-names: "Ted Doral"
+    - family-names: "Kim"
+      given-names: "Jonghoon"
+  year: 2026
+  journal: "Applied Energy"
+  notes: "Manuscript under review; update volume/pages/DOI upon acceptance."
